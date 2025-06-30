@@ -2,21 +2,21 @@
 
 InfraSpot is an Android application designed to streamline the reporting and resolution of public infrastructure issues. Users can submit complaints with photos, location data, and descriptions, while administrators manage and resolve these issues through an integrated dashboard. The app leverages Firebase for real-time data storage and Google Maps SDK for accurate geolocation.
 
-## 🌟 Features
+##  Features
 
-### 👤 User Side
-- 📍 Report issues with image, description, and precise location
-- 🗺️ Google Maps integration to pin and view problem areas
-- 🔒 Firebase Authentication for secure sign-in
-- 🔄 Real-time complaint submission to Firebase
+### User Side
+-  Report issues with image, description, and precise location
+-  Google Maps integration to pin and view problem areas
+-  Firebase Authentication for secure sign-in
+-  Real-time complaint submission to Firebase
 
-### 🔧 Admin Side
-- 📋 View all submitted reports in a RecyclerView
-- 🖼️ Preview report images and open locations directly in Google Maps
-- ✅ Mark issues as resolved (removes report from Firebase)
-- 🔐 Admin authentication with Firebase Auth
+###  Admin Side
+-  View all submitted reports in a RecyclerView
+-  Preview report images and open locations directly in Google Maps
+-  Mark issues as resolved (removes report from Firebase)
+-  Admin authentication with Firebase Auth
 
-## 🔧 Tech Stack
+##  Tech Stack
 - **Frontend:** Java, Android Studio, XML
 - **Backend:** Firebase Realtime Database, Firebase Authentication
 - **Libraries:** Google Maps SDK, Glide (for image loading)
