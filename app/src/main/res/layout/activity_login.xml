@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="32dp"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backkground"> <!-- Set the image here -->
+    <View
+        android:layout_width="399dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.25" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="295dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="emailAddress"
+        android:hint="@string/admin_email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#FFFFFF"
+         />
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="16dp"
+        android:autofillHints="password"
+        android:hint="@string/admin_password"
+        android:textColorHint="#FFFFFF"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnAdminLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:backgroundTint="#CA502A"
+        android:text="@string/login_as_admin"
+        android:textColor="#000000" />
+
+    <Button
+        android:id="@+id/btnUserContinue"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CA502A"
+        android:text="@string/continue_as_user"
+        android:textColor="#212121" />
+</LinearLayout>

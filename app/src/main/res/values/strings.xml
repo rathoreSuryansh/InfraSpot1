@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">InfraSpot_proto</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="logout">Logout</string>
+    <string name="user_dashboard">User Dashboard</string>
+    <string name="Logout">Logout</string>
+    <string name="User_Dashboard">User_dashboard\n</string>
+    <string name="report_issue">Report an Issue</string>
+    <string name="select_image">Select Image</string>
+    <string name="enter_issue_description">Enter issue description</string>
+    <string name="image_preview_description">Preview of the selected image</string>
+    <string name="submit_report">Submit Report</string>
+    <string name="admin_email">Admin Email</string>
+    <string name="admin_password">Admin Password</string>
+    <string name="login_as_admin">Login as Admin</string>
+    <string name="continue_as_user">Continue as User</string>
+    <string name="image_preview">Image Preview</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="title_activity_maps3">MapsActivity3</string>
+
+</resources>
